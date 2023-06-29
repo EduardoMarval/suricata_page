@@ -1,0 +1,75 @@
+:root {
+    --color-text: #212529;
+    --color-title:#707070;
+    --color-main: #E83E8C;
+    --color-secondary: #17A2B8;
+    --bg-main: #E83E8C;
+    --bg-secondary: #17A2B8;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 !important;
+    color: var(--color-text);
+}
+
+#navbar {
+    background-color: var(--bg-main);
+}
+
+#navbar li a {
+    color: #fff;
+}
+.navbar-brand img{
+    max-width: 6em;
+}
+
+.title{
+    color: var(--color-title);
+}
+
+.padding-l-40 {
+    padding-left: 2.1em;
+}
+
+.padding-r-40 {
+    padding-right: 2.1em;
+}
+
+.payment-method {
+    background-color: var(--bg-secondary);
+    min-height: 12em;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li i{
+    color:white;
+}
+
+footer {
+    background-color: var(--bg-main);
+    min-height: 12em;
+}
+
+footer img {
+    max-width: 3em;
+}
